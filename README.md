@@ -13,32 +13,6 @@
  
 A Threat Intelligence platform that aggregates and correlates Indicators of Compromise (IOCs) from multiple sources into a unified, centralized dashboard. It provides real-time analysis and features an LLM-assisted relevance scoring system based on the user's threat model.
 
-# Installation and Setup
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/WHOSAINMI/TIAA-PROJECT.git
-```
-
-### 2. In CMD Navigate to the Project Directory
-```bash
-cd TIAA-PROJECT 
-```
-
-### 3. Install Docker/Docker Desktop
-```bash
-docker -v
-```
-
-### 4. Build the Docker Image and run
-```bash
-docker compose up --build
-```
-
-### 5. Access the Application
-```bash
-http://localhost:3000/
-```
 
 # Features
 - Real-time aggregation of Indicators of Compromise (IOCs) from multiple threat intelligence feeds (Threatfox, Tweetfeed, MISP CIRCL, Alienvault OTX, VirusTotal, Malware Bazaar, URLhaus)
